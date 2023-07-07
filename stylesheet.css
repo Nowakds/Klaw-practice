@@ -9,7 +9,6 @@ body {
 }
 
 #kong13860 {
-    transform: scaleX(-1);
     position:fixed;
     bottom: 0px;
     right: 0px;
@@ -41,8 +40,7 @@ body {
 }
 
 header {
-    background-image: url(banan.png);
-    background-color: white;
+    background-color: orange;
     height:100px;
 }
 
@@ -100,8 +98,6 @@ nav li {
     top: 36px;
     border-radius: 5px;
     position: relative;
-    background-color: white;
-    border-style: solid;
 }
 
 nav a::before {

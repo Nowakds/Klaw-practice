@@ -1,0 +1,192 @@
+body {
+    background-color: #F5C26B;
+    margin: 0;
+}
+
+.kongz {
+    width: 35%;
+    height: 55%;
+}
+
+#kong13860 {
+    transform: scaleX(-1);
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#kong10199 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#rollButton {
+    
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.middle {
+    text-align: center;
+}
+
+.prize {
+    margin-top: 25px;
+    font-size: 35px;
+    font-family:'Readex Pro', sans-serif;
+    padding-bottom: 20px;
+}
+
+header {
+    background-image: url(banan.png);
+    background-color: white;
+    height:100px;
+}
+
+#nftImage {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 4px;
+    background-color: skyblue;
+}
+
+.navigationbar {
+    font-family:'Readex Pro', sans-serif;
+    float: left;
+    width: 68%;
+    font-size: 25px;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:visited, a:link {
+    color: black;
+}
+
+a:hover {
+    color:white;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 100px;
+    top: 36px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+    border-style: solid;
+}
+
+nav a::before {
+    display:block;
+    content:"";
+    height: 5px;
+    width: 0%;
+    position: relative;
+    background-color: yellow;   
+
+    position: absolute;
+    bottom: -33px;
+
+    transition: ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+#buttonPic {
+    width: 150px;
+}
+
+#insertTicket {
+    font-family:'Readex Pro', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+button {
+    -webkit-animation: breathing 3s ease-out infinite normal;
+    animation: breathing 3s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;    
+    }
+
+#speech {
+    position: fixed;
+    right: 0;
+    top: 40px;
+    width: 30%;
+
+}
+
+#speech3 {
+    position: fixed;
+    left: 0;
+    top: 50px;
+    width: 30%;
+
+}
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+

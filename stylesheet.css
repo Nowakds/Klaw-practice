@@ -202,7 +202,7 @@ button {
     }
 
     .navigationbar {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     #prize {
@@ -222,6 +222,6 @@ button {
         margin-left: 20px;
     }
     header {
-        height: 80px;
+        height: 70px;
     }
   }

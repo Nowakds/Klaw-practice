@@ -220,6 +220,7 @@ button {
 
     nav li {
         margin-left: 20px;
+        top: 30px;
     }
     header {
         height: 70px;

@@ -45,8 +45,10 @@ header {
 }
 
 #nftImage {
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    width: 50%;
+    height: auto;
     border-style: solid;
     border-width: 4px;
     background-color: skyblue;
@@ -185,4 +187,3 @@ button {
     transform: scale(0.9);
   }
 }
-

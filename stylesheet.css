@@ -57,7 +57,7 @@ header {
 .navigationbar {
     font-family:'Readex Pro', sans-serif;
     float: left;
-    width: 68%;
+    width: 48%;
     font-size: 25px;
 }
 
@@ -151,6 +151,14 @@ button {
     width: 30%;
 
 }
+
+#logo {
+    width: 16%;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+}
+
 @-webkit-keyframes breathing {
   0% {
     -webkit-transform: scale(0.9);
@@ -191,5 +199,9 @@ button {
 @media (max-width: 767px) {
     .mobileView {
       display: none;
+    }
+
+    .navigationbar {
+        font-size: 12px;
     }
   }

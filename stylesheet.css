@@ -187,3 +187,9 @@ button {
     transform: scale(0.9);
   }
 }
+
+@media (max-width: 767px) {
+    .mobileView {
+      display: none;
+    }
+  }

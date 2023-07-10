@@ -220,9 +220,14 @@ button {
 
     nav li {
         margin-left: 16px;
-        top: 24px;
+        top: 28px;
     }
     header {
         height: 70px;
+    }
+
+    #nftImage {
+        max-width: 200px;
+        max-height: 200px;
     }
   }

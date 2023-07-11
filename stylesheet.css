@@ -206,6 +206,32 @@ th, td {
   }
 }
 
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #e6f7ff;
+}
+
 @media (max-width: 767px) {
     .mobileView {
       display: none;
@@ -244,30 +270,8 @@ th, td {
     #insertTicket {
         font-size: 25px;
     }
-  }
 
-  table {
-    width: 50%;
-    border-collapse: collapse;
-  }
-
-  thead th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-
-  tbody td {
-    padding: 8px;
-    border-bottom: 1px solid #ddd;
-  }
-
-  tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-
-  tbody tr:hover {
-    background-color: #e6f7ff;
-  }
+    table {
+        width: 100%;
+    }
+}

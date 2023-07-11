@@ -230,4 +230,8 @@ button {
         max-width: 200px;
         max-height: 200px;
     }
+
+    #insertTicket {
+        font-size: 25px;
+    }
   }

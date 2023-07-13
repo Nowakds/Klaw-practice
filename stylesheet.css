@@ -94,10 +94,10 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 10%;
     top: 36px;
     border-radius: 5px;
     position: relative;
+    margin-left: 10%;
 }
 
 nav a::before {
@@ -154,18 +154,20 @@ button {
     width: 250px;
     height: auto;
     float: left;
-    margin-left: 50px;
+    margin-left: 3%;
     margin-right: 3%;
-}
-
-table {
-    font-family:'Readex Pro', sans-serif;
-    padding: 10px;
 }
 
 th, td {
     padding: 10px;
     border-style: solid;
+}
+
+table {
+    border-collapse: collapse;
+    font-family:'Readex Pro', sans-serif;
+    padding: 10px;
+    width: 60%;
 }
 
 
@@ -207,10 +209,6 @@ th, td {
   }
 }
 
-table {
-  width: 50%;
-  border-collapse: collapse;
-}
 
 thead th {
   background-color: #f2f2f2;

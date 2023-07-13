@@ -75,7 +75,7 @@ const raffledict = {
     'Grumpls': 'grumpl.png',
     'Kubz': 'kubz.png',
     'Cel Mates Crime Reports': 'crimereport.png',
-    'Realms (for Adventurers)': 'realms.png',
+    'Realms (for Adventurers)': 'realm1.png',
     'Acclimated Moon Cats': 'mooncat.png',
     'My Pet Hooligan': 'hooligan.png',
     'Sandbox': 'sandboxpic.png',
@@ -83,7 +83,7 @@ const raffledict = {
   };
 
   function roll() {
-    const random_number = Math.floor(Math.random() * 494) + 1;
+    const random_number = Math.floor(Math.random() * 493) + 1;
 
     let selected_key = null;
     for (const [key, value_range] of Object.entries(raffledict)) {

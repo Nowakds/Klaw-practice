@@ -10,13 +10,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet.css">
 </head>
 <body>
-    <!-- 
-        Klaw Machine
-            - Button 
-            - Prize Graphic
-                - Link to OS
-        List of prizes w/ odds
-    -->
 <header>
     <img src="klaw-logo.png" alt="Logo pic" id="logo">
     <div class="navigationbar">
@@ -30,13 +23,21 @@
     </div>
 </header>
 
-<div class = "middle" id="slot">
-    <div>
-        
-    </div>
-</div>
-<img src="10199kong.png" class="kongz" alt="kong10199 pic" id="kong10199">
-<img src="rightkong.png" class="kongz" alt="Fail" id="kong13860">
+<div class="container">
+    <h1>Contact Darek!</h1>
+    <form id="contact-form" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 
 <script src="index.js"></script>
 </body>

@@ -4,8 +4,8 @@ body {
 }
 
 .kongz {
-    width: 35%;
-    height: 55%;
+    width: 30%;
+    height: 50%;
     position:absolute;
 }
 
@@ -136,7 +136,7 @@ nav a:hover::before {
 
 #speech {
     position: absolute;
-    right: 5%;
+    right: 3%;
     top: 15%;
     width: 25%;
 
@@ -144,7 +144,7 @@ nav a:hover::before {
 
 #speech3 {
     position: absolute;
-    left: 5%;
+    left: 3%;
     top: 15%;
     width: 25%;
 
